@@ -1,0 +1,33 @@
+# Build output
+target/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Local database files
+data/
+*.mv.db
+*.trace.db
+
+# Local Postman workspace metadata
+.postman/
+
+# Tool-generated GitHub modernization logs
+.github/modernize/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-*.local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
