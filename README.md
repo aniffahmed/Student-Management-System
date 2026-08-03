@@ -1,6 +1,6 @@
 # Student Management System (Spring Boot CRUD)
 
-This is a beginner-friendly and interview-ready Spring Boot 4 CRUD project using Java 25, Maven, JPA, H2, Lombok, and Validation.
+This is a beginner-friendly Spring Boot 4 CRUD project using Java 25, Maven, JPA, H2, Lombok, and Validation.
 
 ## Tech Stack
 
@@ -210,16 +210,3 @@ So you write less code, avoid boilerplate, and focus on business logic.
 
 - `@Entity`:
   Maps Java class to database table.
-
-## Interview Questions from This Project
-
-1. What is layered architecture and why is it useful?
-2. Why do we use `JpaRepository` instead of writing JDBC code manually?
-3. What is the role of `@Valid` and where does validation happen?
-4. Difference between `@Controller` and `@RestController`?
-5. Why do we use constructor injection?
-6. What is `@ControllerAdvice` and why do we need global exception handling?
-7. What does `spring.jpa.hibernate.ddl-auto=update` do?
-8. What happens when a student ID does not exist?
-9. Why is `StudentService` an interface?
-10. How does Spring Boot auto-configure datasource and JPA?
